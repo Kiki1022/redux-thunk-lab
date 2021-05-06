@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 
 class App extends Component {   
   
+  componentDidMount() {
+      this.fetchCats()
+  }
+
+
   render() {
     return (
       <div>
